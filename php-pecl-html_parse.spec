@@ -9,7 +9,7 @@ License:	PHP 2.02
 Group:		Development/Languages/PHP
 Source0:	http://pear.php.net/get/%{_modname}-%{version}.tgz
 # Source0-md5:	cb6035c83d7902708e64b180ee2a1499
-URL:		http://pear.php.net/
+URL:		http://pear.php.net/package/%{_pearname}/
 BuildRequires:	ekhtml-devel
 BuildRequires:	libtool
 BuildRequires:	php-devel
