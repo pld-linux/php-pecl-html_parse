@@ -24,13 +24,13 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 HTML parser extension based on the ekhtml library
 (http://ekhtml.sourceforge.net/)
 
-This extension has in PEAR status: %{_status}.
+In PECL status of this package is: %{_status}.
 
 %description -l pl
 Parser HTML bazowany na bibliotece ekhtml
 (http://ekhtml.sourceforge.net/)
 
-To rozszerzenie ma w PEAR status: %{_status}.
+To rozszerzenie ma w PECL status: %{_status}.
 
 %prep
 %setup -q -c
