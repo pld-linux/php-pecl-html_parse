@@ -11,7 +11,6 @@ Source0:	http://pecl.php.net/get/%{_modname}-%{version}.tgz
 # Source0-md5:	cb6035c83d7902708e64b180ee2a1499
 URL:		http://pecl.php.net/package/html_parse/
 BuildRequires:	ekhtml-devel
-BuildRequires:	libtool
 BuildRequires:	php-devel
 Requires:	php-common
 Obsoletes:	php-pear-%{_modname}
