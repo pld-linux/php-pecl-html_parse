@@ -1,7 +1,7 @@
 %define		_modname	html_parse
 %define		_status		alpha
 Summary:	%{_modname} - HTML parser extension
-Summary(pl):	%{_modname} - parser HTML
+Summary(pl.UTF-8):   %{_modname} - parser HTML
 Name:		php-pecl-%{_modname}
 Version:	0.1
 Release:	2
@@ -24,7 +24,7 @@ HTML parser extension based on the ekhtml library
 
 In PECL status of this package is: %{_status}.
 
-%description -l pl
+%description -l pl.UTF-8
 Parser HTML bazowany na bibliotece ekhtml
 (http://ekhtml.sourceforge.net/)
 
