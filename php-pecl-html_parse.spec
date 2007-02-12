@@ -1,7 +1,7 @@
 %define		_modname	html_parse
 %define		_status		alpha
 Summary:	%{_modname} - HTML parser extension
-Summary(pl.UTF-8):   %{_modname} - parser HTML
+Summary(pl.UTF-8):	%{_modname} - parser HTML
 Name:		php-pecl-%{_modname}
 Version:	0.1
 Release:	2
