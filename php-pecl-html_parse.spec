@@ -1,8 +1,9 @@
+%define		php_name	php%{?php_suffix}
 %define		modname		html_parse
 %define		status		stable
 Summary:	%{modname} - HTML parser extension
 Summary(pl.UTF-8):	%{modname} - parser HTML
-Name:		php-pecl-%{modname}
+Name:		%{php_name}-pecl-%{modname}
 Version:	1.0.0
 Release:	2
 License:	PHP 2.02
@@ -10,9 +11,9 @@ Group:		Development/Languages/PHP
 Source0:	http://pecl.php.net/get/%{modname}-%{version}.tgz
 # Source0-md5:	d19772cb926d775313af0fda207e2a90
 URL:		http://pecl.php.net/package/html_parse/
+BuildRequires:	%{php_name}-devel >= 4:5.0.4
 BuildRequires:	ekhtml-devel
-BuildRequires:	php-devel >= 4:5.0.4
-BuildRequires:	rpmbuild(macros) >= 1.344
+BuildRequires:	rpmbuild(macros) >= 1.650
 %{?requires_php_extension}
 Obsoletes:	php-pear-%{modname}
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
