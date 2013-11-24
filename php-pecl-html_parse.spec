@@ -5,7 +5,7 @@ Summary:	%{modname} - HTML parser extension
 Summary(pl.UTF-8):	%{modname} - parser HTML
 Name:		%{php_name}-pecl-%{modname}
 Version:	1.0.0
-Release:	3
+Release:	4
 License:	PHP 2.02
 Group:		Development/Languages/PHP
 Source0:	http://pecl.php.net/get/%{modname}-%{version}.tgz
